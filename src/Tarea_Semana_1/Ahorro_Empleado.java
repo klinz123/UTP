@@ -7,7 +7,8 @@ public class Ahorro_Empleado {
         
         // Declaración de variables
         String nombreEmpleado, cargoEmpleado;
-        double ingresoMensual, gastoMensual, ahorroMensual, ahorroBimestral, ahorroSemestral, ahorroAnual;
+        double ingresoMensual, gastoMensual, ahorroMensual, ahorroBimestral, 
+               ahorroSemestral, ahorroAnual;
         
         // Entrada de datos
         System.out.print("Ingrese el nombre del empleado: ");
