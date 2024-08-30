@@ -7,13 +7,13 @@ import java.util.Scanner;
         int n1, n2,n3,n4, mayor;
         Scanner lectura=new Scanner(System.in);
         //entrada de datos
-        System.out.print("Ingresar Número 1:");
+        System.out.print("Ingresar Numero 1:");
         n1=lectura.nextInt();
-        System.out.print("Ingresar Número 2:");
+        System.out.print("Ingresar Numero 2:");
         n2=lectura.nextInt();
-        System.out.print("Ingresar Número 3:");
+        System.out.print("Ingresar Numero 3:");
         n3=lectura.nextInt();
-        System.out.print("Ingresar Número 4:");
+        System.out.print("Ingresar Numero 4:");
         n4=lectura.nextInt();
         
         //proceso de datos
@@ -21,8 +21,7 @@ import java.util.Scanner;
         if(n2>mayor){
             mayor=n2;
         }
-        
-        if(n3>mayor){
+                if(n3>mayor){
             mayor=n3;
         }
         
