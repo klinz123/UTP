@@ -7,7 +7,7 @@ package Semana_4;
 
 import java.util.Scanner;
 
-public class Operaciones_Matematicas {
+public class Operaciones {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -29,7 +29,7 @@ public class Operaciones_Matematicas {
         System.out.print("Elige una opción (1-4): ");
         int opcion = input.nextInt();
         
-        // Realizar la operación seleccionada usando switch-case
+        // Realizar la operación seleccionada 
         switch(opcion) {
             case 1:
                 // Suma
@@ -63,8 +63,5 @@ public class Operaciones_Matematicas {
                 // Opción inválida
                 System.out.println("Opción no válida. Por favor, selecciona entre 1 y 4.");
         }
-        
-        // Cerrar el escáner
-        input.close();
     }
 }
