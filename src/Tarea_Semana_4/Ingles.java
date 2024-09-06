@@ -6,7 +6,7 @@ public class Ingles {
         //ingreso de datos
         System.out.print("Ingresa un número entero (1-6): ");
         int numero = lectura.nextInt();
-        // Determinar el número en inglés usando switch-case
+        // Determinar el número en inglés 
         switch (numero) {
             case 1 -> System.out.println("One");
             case 2 -> System.out.println("Two");
