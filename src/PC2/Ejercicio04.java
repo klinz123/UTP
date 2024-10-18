@@ -32,7 +32,7 @@ public class Ejercicio04 {
         }
 
         if (!encontrado) {
-            System.out.println("No existe " + nombreBuscado + " no existe en el arreglo.");
+            System.out.println("No existe " + nombreBuscado + " en el arreglo.");
         }
     }
 }
